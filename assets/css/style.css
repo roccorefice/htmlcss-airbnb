@@ -4,4 +4,46 @@
   padding: 0;
 }
 
-.
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city{
+  width: 30vw;
+  position: relative;
+}
+
+.city img{
+  margin: 20px;
+  width: 100%;
+  box-shadow: 4px 4px #4F4F4F;
+  display: block;
+  border-radius: 50px;
+  background-size: contain;
+}
+
+.city span{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 3px #000000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin-left: 20px;
+}
